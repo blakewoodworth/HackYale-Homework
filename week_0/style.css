@@ -1,0 +1,53 @@
+body {
+	background-color: #E0F2F7;
+	text-align: center;
+}
+
+header {
+	background-color: #67CC52;
+	text-align: left;
+}
+
+ul {
+	display: block;
+}
+
+li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.title {
+	height: 50px;
+	font-size: 36pt;
+	color: white;
+	line-height: 50px;
+	padding-left: 45px;
+	margin: 0;
+}
+
+.navigation {	
+	color: black;
+	font-weight: 550;
+
+	position: relative;
+	height: 50px;
+}
+
+.green {
+	color: #00A300;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.goofy {
+	font-style: oblique;
+	font-weight: 600;
+}
+
+.shadow {
+	text-shadow: 1px 1px grey;
+	font-weight: 500;
+}

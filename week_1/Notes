@@ -1,0 +1,69 @@
+Common Mistakes
+
+home page is always called index.html
+use lowercase for everything
+folder should be called hw0, hw1, hw2...
+use only one stylesheet for small sites like these
+follow convention!
+
+dont use <font> in html, thats what css is for
+you can't use '<' or '>' as text, replace with &lt; and &gt; ("html entities")
+
+ways to select elements:
+	by tag name ==>name
+	by class ==> .name
+	by ID ==> #name
+		-like class only this can be applied to only one element
+		-an element can only have one ID
+		-kinda discouraged, not reusable
+
+css syntax:
+	p{ //called the selector
+		font-size: 18px;   //definition block
+		color: blue;	   //property
+						   //value
+	}	
+
+common styles:
+	color/background-color
+	text-decoration (none/underline)
+	width/height/font-size (percentage or pixel value)
+	border (size style color e.g. border: 1px double red;)
+
+box model:
+	margin //how far things need to stay away from the border
+	border //visual border
+	padding //distance between border and content within
+	content/height-width
+
+CSS display:
+	display: block; ==> element takes up the full available width, starts on a new line
+	display: inline; ==> element takes up only the width of its content, no new line
+	display: none; ==> not rendered in browser, does not affect the positioning of anything else
+	display: inline-block; ==> only needed width like inline, but we can set height, width, 
+		padding, margin, etc.
+
+CSS position:
+	position: fixed; ==> sets the element to be rendered at a fixed position in the browser window
+		-specify pixel values for top/bottom/left/right to specify how far from edges
+	position: relative; ==> positioning relative to its neighboring sibling elements a.k.a. offset 
+		from where it would be if you didn't specify a position
+		-specify pixel values for top/bottom/left/right to specify how far from edges
+	position: absolute; ==> sets the element to be rendered at a specific location with respect
+		to its parent (first non-static parent or something like that)
+		-specify pixel values for top/bottom/left/right to specify how far from edges
+
+Homework:
+
+1) finish command line tutorial
+2) in github, create a "hw1" git repository
+3) upload your assignment to that ^
+4) on Lore, submit JUST THE LINK to the repository
+
+5) see pdf thing. copy that structure and fill in the blanks
+
+
+
+
+
+
